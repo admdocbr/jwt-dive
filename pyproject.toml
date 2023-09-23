@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "jwt-dive"
+version = "0.1.0"
+description = "a deeper dive into JWT"
+authors = ["Björn Boschman <bjoern@boschman.de>"]
+license = "unlicense"
+readme = "README.md"
+packages = [{include = "jwt_dive"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ipynb = "^0.5.1"
+ipykernel = "^6.25.2"
+pyjwt = "^2.8.0"
+cryptography = "^41.0.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
